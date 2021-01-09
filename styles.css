@@ -1,0 +1,147 @@
+    ul
+    {   margin:0px;
+        list-style-type:none;
+    }
+    li
+    {   display:inline-block;
+        margin:20px;
+        color:white;
+        text-transform: uppercase;
+        text-decoration:none;
+    }   
+    @media screen and (max-width:937px)
+    {
+    header 
+    {
+        height:200px;
+    }
+    header .mobile
+    {
+        display:inline-block;     
+    }
+    header .desktop
+    {
+        display:none;
+    }
+        
+    }
+    header .LOGO 
+    {
+        background:red;
+        background-image: url("materia/皮克斯杂烩.png");
+        background-size: 300px;
+        display:inline-block;
+        height:60px;
+        text-indent: -999999999px;
+        width:300px;
+    }
+
+    h4
+    {
+        margin:2px;
+    }
+    div
+    {
+        font-size:200%;
+        
+        display:inline-block;
+        width:100px;
+        margin:0px;
+        padding:20px;
+        margin:auto;
+    }
+    h1
+    {
+        color:rgb(238, 224, 224);
+        background:black;
+        padding:20px;
+    }
+    body
+    {   background:rgb(245, 242, 242);
+        font-family:Arial, Helvetica, sans-serif;
+        margin:0;
+        padding:0;
+    }
+    .button
+    {
+        color:white;
+        border-radius:30px;
+        width:80px;
+        height:28px; 
+        position:absolute;
+        top:18px;
+        left:10px;
+        background:rgb(253, 253, 255);
+        background-color: transparent;
+
+        
+        
+    }
+    header
+    {
+        margin;20px;20px;
+        text-align:center;
+        height:400px;
+        background-image:url("images/valcano.jpg");    
+        
+        background-position:center;
+    }
+    section
+    {
+        background:rgb(248, 236, 240);
+        margin:10px;
+        padding:20px;
+        display:flex;
+    }
+    .features figure img
+    {
+        
+        display:flex;
+        margin:20px;
+        height:300px;
+        width:300px;
+        box-shadow: rgb(253, 247, 247) 0 0 50px;
+        
+        
+    }
+p.desktop
+    {
+    text-align: center;
+    }
+p.box
+{
+    text-align: center;
+    
+}    
+
+
+.mobile
+{
+    display:none;
+}
+header a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    position:relative;
+    top:20px;
+}
+.features figure
+{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+   /* flex-wrap: wrap;*/
+    
+}
+@media screen and (max-width:613px)
+{
+    .features figure
+    {
+        display:block;
+    }
+
+}
+
+

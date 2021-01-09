@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button class="button">LOGIN</button>
+        <header>
+            <ul>
+            <li class="HOME"><a href="index.html"  >home</a></li>
+            <li class="LOCATIONS"><a href="locations.html">locations</a></li>
+            <li class="mobile"><a href="derections.html" >derections</a></li>
+            <li class="mobile"><a href="contact.html">contact</a></li>
+            <li class="LOGO">LOGO</li>
+            <li class="desktop"><a href="contact.html">contact</a></li>
+            <li class="desktop"><a href="derections.html" >derections</a></li>
+            </ul>
+            <h1>HOME</h1>
+        </header>
+            <p class="desktop">
+                new thing
+            </p>
+            <p class="box">
+                <input id="num-one">+<input id="num-two">
+                <p id="add-sum"></p>
+            </p>
+            
+            <section class="features">
+            <figure>
+                <img src="materia/地平线.png" alt="zero">
+                <img src="materia/wall-e1.jpg" alt="one">
+                <img src="materia/beautiful girls.png" alt="two">
+                <img src="materia/动漫男.png" alt="three">
+            </figure>
+            </section>
+            <section></section>     
+            </section>
+            <footer></footer>
+            <script>
+                var d=document.getElementsByClassName("desktop");
+                d[2].innerHTML="old thing";
+                var num1=document.getElementById("num-one");
+                var num2=document.getElementById("num-two");
+                var sum=document.getElementById("add-sum");
+                num1.addEventListener("input",add);
+                num2.addEventListener("input",add);
+                function add(){
+                    var one=parseFloat(num1.value)||0;
+                    var two=parseFloat(num2.value)||0;
+                    sum.innerHTML=one+two;
+                    
+                        
+                    
+                }
+
+            </script>
+            
+        </body>
+</html>
+               
