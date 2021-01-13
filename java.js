@@ -29,14 +29,14 @@ DOM one:p.className=p.className.replace("****")
 //     input.focus();
 //     input.setSelectionRange(0,input.value.length);
 // }
-var simon=document.getElementById("simon");
-var bruce=document.getElementById("bruce");
-var ben=document.getElementById("ben");
+var beatifulgirl=document.getElementById("simon");
+var secret=document.getElementById("bruce");
+var yagamilight=document.getElementById("ben");
 var boy=document.getElementById("boy")
 
-simon.addEventListener("click",picLink);
-bruce.addEventListener("click",picLink);
-ben.addEventListener("click",picLink);
+beatifulgirl.addEventListener("click",picLink); 
+secret.addEventListener("click",picLink);
+yagamilisght.addEventListener("click",picLink);
 boy.addEventListener("click",picLink);
 
 function picLink(){
